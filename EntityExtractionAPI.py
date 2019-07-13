@@ -20,7 +20,7 @@ from watson_developer_cloud.natural_language_understanding_v1 import Features, E
 #Initialize API connection
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-11-16',
-    iam_apikey='gupW5FqfRi5a-IUVmhct590nqUMVg8RKk9NBx03GkJLc',
+    iam_apikey='{apikey}',
     url='https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2018-03-19')
 # List of URLs from which Entities have to be extracted
 urls=['https://www.cnbc.com/2019/03/22/reuters-america-update-4-german-bund-yield-crashes-below-zero-for-first-time-since-2016-as-bleak-data-rattles-markets.html']
